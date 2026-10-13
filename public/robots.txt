@@ -1,0 +1,17 @@
+# robots.txt for Deepak Sheoran Software & Extensions
+User-agent: *
+Allow: /
+Allow: /extensions
+Allow: /extensions/*
+Allow: /about
+Allow: /contact
+Allow: /help
+Allow: /privacy
+Allow: /terms
+Allow: /refund
+
+# Restrict sensitive license key / checkout confirmation page
+Disallow: /thank-you
+
+# Sitemap location (replace YOUR_FINAL_DOMAIN when connected)
+Sitemap: YOUR_FINAL_DOMAIN/sitemap.xml

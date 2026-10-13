@@ -1,0 +1,8 @@
+{
+  "name": "Deepak Sheoran Software & Extensions",
+  "description": "Central catalog for Chrome extensions and productivity software by Deepak Sheoran, featuring Flow Automator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

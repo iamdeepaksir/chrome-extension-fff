@@ -1,0 +1,3 @@
+# Cloudflare Pages SPA Routing Fallback
+# Serves index.html for all direct deep routes (e.g. /privacy, /extensions/flow-automator, /thank-you)
+/*    /index.html   200

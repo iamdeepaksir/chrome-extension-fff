@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-teal-dark: #123C3A;
+  --color-teal-main: #1A5C52;
+  --color-gold: #C9A84C;
+  --color-gold-hover: #b8973d;
+  --color-neutral-bg: #F5F7F6;
+  --color-neutral-card: #FFFFFF;
+  --color-neutral-dark: #182321;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F5F7F6;
+  color: #182321;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular numerals for data and timestamps */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
